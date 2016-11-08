@@ -1,0 +1,39 @@
+logging:
+  level: ALL
+  appenders:
+    - type: console
+      threshold: INFO
+      timeZone: UTC
+      target: stdout
+#    - type: file
+#      threshold: INFO
+#      currentLogFilename: ./log/INFO/INFO-semut-opang-svc.log
+#      timeZone: UTC
+#      archive: true
+#      archivedLogFilenamePattern: ./log/INFO/INFO-semut-opang-svc-%d.log
+#      archivedFileCount: 5
+#    - type: file
+#      threshold: WARN
+#      currentLogFilename: ./log/WARN/WARN-semut-opang-svc.log
+#      timeZone: UTC
+#      archive: true
+#      archivedLogFilenamePattern: ./log/WARN/WARN-semut-opang-svc-%d.log
+#      archivedFileCount: 5
+#    - type: file
+#      threshold: ERROR
+#      currentLogFilename: ./log/ERROR/ERROR-semut-opang-svc.log
+#      timeZone: UTC
+#      archive: true
+#      archivedLogFilenamePattern: ./log/ERROR/ERROR-semut-opang-svc-%d.log
+#      archivedFileCount: 5
+
+rabbitMQHost: 167.205.7.229
+rabbitMQUsername: GPSTracker
+rabbitMQPassword: GPSTracker
+rabbitMQVHost: GPSTracker
+
+mySqlhost: jdbc:mysql://202.138.226.29:3306
+mySqlDb: bsts_new
+mySqluser: BSTS
+mySqlpass: Semut123
+
