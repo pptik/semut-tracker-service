@@ -71,7 +71,7 @@ fabric.properties
 hs_err_pid*
 
 Artifacts
-config.yaml
+*.yaml
 /.idea/compiler.xml
 /.idea/copyright/profiles_settings.xml
 /.idea/misc.xml
