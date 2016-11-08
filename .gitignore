@@ -81,3 +81,4 @@ generated-sources
 maven-archiver
 maven-status
 dependency-reduced-pom.xml
+PubData.java
