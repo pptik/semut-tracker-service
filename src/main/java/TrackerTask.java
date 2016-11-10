@@ -102,6 +102,13 @@ public class TrackerTask {
 
             } catch (SQLException e) {
                 LOG.error("Something went wrong: "+e.getMessage());
+            }finally {
+                try {
+                    conn.close();
+                    preparedStatement.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
         }else{
             LOG.info("DB Connection: null");
